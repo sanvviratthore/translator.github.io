@@ -49,7 +49,7 @@ The **Translator App** is a mobile application developed using Flutter that allo
 
 ## 📚 Future Improvements
 
-- Add support for **more languages**
-- Improve sentiment detection for **non-English** input
+- Support for **more languages**
+- Improving sentiment detection for **non-English** output
 - Implement **voice input** and **text-to-speech** for accessibility
 
