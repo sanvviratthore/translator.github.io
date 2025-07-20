@@ -7,7 +7,7 @@ The **Translator App** is a mobile application developed using Flutter that allo
 ## 🚀 Features
 
 - 🌐 **Multi-Language Translation**: Supports real-time text translation between **English**, **Hindi**, and **Japanese**.
-- 🧠 **Sentiment Detection**: Automatically analyzes and classifies input text as **Positive**, **Neutral**, or **Negative**.
+- 🧠 **Sentiment Detection (English-only)**: Analyzes and classifies **English input text** as **Positive**, **Neutral**, or **Negative**. *(Non-English input may default to Neutral.)*
 - 🧭 **Auto Language Detection**: Detects the input language and translates it into the target language.
 - 📲 **Cross-Platform Support**: Works on **Android**, **iOS**, and **Web** (via GitHub Pages).
 - 🧼 **User-Friendly Interface**: Minimal and intuitive design with clear input and output fields.
