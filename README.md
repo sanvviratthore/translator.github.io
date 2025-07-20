@@ -1,45 +1,51 @@
-# Translator App
+📱 Translator App
+The Translator App is a mobile application developed using Flutter that allows users to translate text between English, Hindi, and Japanese. In addition to seamless language translation, it also detects the sentiment (Positive, Neutral, or Negative) of the input text. Whether you're traveling, learning a new language, or communicating across linguistic boundaries, this app helps break down both language and emotional barriers.
 
-The Translator App is a mobile application designed to translate text between three languages. Developed using Flutter, this app offers a seamless, easy-to-use interface that allows users to translate text instantly. Whether you're traveling abroad, learning a new language, or communicating with someone who speaks a different language, the Translator App makes language barriers disappear.
+🚀 Features
+🌐 Multi-Language Translation: Supports real-time text translation between English, Hindi, and Japanese.
 
-## Use Cases
-- **Students**: Aid in learning new languages or understanding foreign text.
-- **Professionals**: Translate documents, emails, or messages for work purposes.
-- **General Users**: Translate text in everyday situations for easier communication.
+🧠 Sentiment Detection: Automatically analyzes and classifies input text as Positive, Neutral, or Negative.
 
-## Primary Features
-1. **Multi-Language Support**: Translate text between three languages that are Japanese, English, and Hindi.
-2. **Real-Time Translation**: Get translations instantly, without waiting.
-3. **User-Friendly Interface**: Intuitive design with easy input and output fields.
-4. **Cross-Platform**: Compatible with both Android and iOS devices, as well as a web version.
-5. **Language Detection**: The app automatically detects the language of the input text and translates it into the selected language.
+🧭 Auto Language Detection: Detects the input language and translates it into the target language.
 
-## Proposed Tech Stack
-- **Frontend**: Flutter
-- **State Management**: Provider
-- **Deployment**: GitHub Pages (for the web version)
+📲 Cross-Platform Support: Works on Android, iOS, and Web (via GitHub Pages).
 
-## Installation
-Follow these steps to clone and set up the project on your local machine:
+🧼 User-Friendly Interface: Minimal and intuitive design with clear input and output fields.
 
-1. **Clone the Repository**: git clone https://github.com/sanvviratthore/translator.github.io.git
-2. Navigate to the Project Directory: cd translator.github.io
-3. Install Dependencies: Ensure you have Flutter installed.
-4. Run the following command to get the required packages: flutter pub get
-5. Run the Application:
- - For mobile devices: flutter run
- - For the web version:
-     flutter build web
-     cd build/web
-     open index.html
+🎯 Use Cases
+👩‍🎓 Students: Learn new languages and understand foreign content.
 
-## Live Demo
-Check out the live version of the Translator App at: https://sanvviratthore.github.io/translator.github.io/
+💼 Professionals: Translate documents, emails, and messages quickly.
 
-## Contributing
-We welcome contributions to improve and expand the Translator App! To contribute:
+🌍 General Users: Communicate easily in multilingual environments.
 
- - Fork the repository.
- - Create a new branch for your feature: git checkout -b feature-branch
- - Commit your changes: git commit -m 'Add new feature'
- - Push your branch and submit a pull request.
+🧰 Tech Stack
+Frontend: Flutter
+
+State Management: Provider
+
+Packages Used:
+
+translator (^1.0.3+1) – For language translation between English, Hindi, and Japanese
+
+sentiment_dart (^0.0.5) – For basic sentiment analysis of English input text
+
+Deployment: GitHub Pages (Web version)
+
+👩‍💻 Developer Role
+Designed and developed the app interface using Flutter and Provider for efficient state management.
+
+Integrated translation and sentiment detection features using public Dart packages.
+
+Ensured the app works smoothly across platforms and deployed the web version using GitHub Pages.
+
+📸 Screenshots
+
+<img width="1919" height="910" alt="Screenshot 2025-07-20 153637" src="https://github.com/user-attachments/assets/6567bb05-da28-4b78-be77-b90852ddb89f" />
+
+📚 Future Improvements
+Add support for more languages
+
+Improve sentiment detection for non-English input
+
+Implement voice input and text-to-speech for accessibility
