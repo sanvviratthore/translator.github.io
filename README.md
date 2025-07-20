@@ -1,15 +1,14 @@
 # Translator App
 
-The Translator App is a mobile application designed to translate text between multiple languages. Developed using Flutter, this app offers a seamless, easy-to-use interface that allows users to translate text instantly. Whether you're traveling abroad, learning a new language, or communicating with someone who speaks a different language, the Translator App makes language barriers disappear.
+The Translator App is a mobile application designed to translate text between three languages. Developed using Flutter, this app offers a seamless, easy-to-use interface that allows users to translate text instantly. Whether you're traveling abroad, learning a new language, or communicating with someone who speaks a different language, the Translator App makes language barriers disappear.
 
 ## Use Cases
-- **Travelers**: Quickly translate text or phrases while traveling to foreign countries.
 - **Students**: Aid in learning new languages or understanding foreign text.
 - **Professionals**: Translate documents, emails, or messages for work purposes.
 - **General Users**: Translate text in everyday situations for easier communication.
 
 ## Primary Features
-1. **Multi-Language Support**: Translate text between a wide range of languages.
+1. **Multi-Language Support**: Translate text between three languages that are Japanese, English, and Hindi.
 2. **Real-Time Translation**: Get translations instantly, without waiting.
 3. **User-Friendly Interface**: Intuitive design with easy input and output fields.
 4. **Cross-Platform**: Compatible with both Android and iOS devices, as well as a web version.
@@ -18,7 +17,6 @@ The Translator App is a mobile application designed to translate text between mu
 ## Proposed Tech Stack
 - **Frontend**: Flutter
 - **State Management**: Provider
-- **Backend**: Google Translate API
 - **Deployment**: GitHub Pages (for the web version)
 
 ## Installation
